@@ -18,7 +18,7 @@ const NavBar = () => {
     <div className="w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/skills/css.png"
+          src="../public/assets/skills/css.png"
           alt="/"
           width="50"
           height="50"
@@ -70,7 +70,7 @@ const NavBar = () => {
           <div>
             <div className="flex items-center justify-between w-full">
               <Image
-                src="/../public/assets/skills/css.png"
+                src="../public/assets/skills/css.png"
                 alt="/"
                 width="50"
                 height="50"
