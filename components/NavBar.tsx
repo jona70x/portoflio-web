@@ -17,8 +17,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-full h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+    <div className="w-full h-20 shadow-xl">
+      <div className="flex justify-between items-center w-full h-full 2xl:px-16">
         <Image src={NavLogo} alt="nav logo" width="50" height="50" />
         <div>
           <ul className="hidden md:flex">
@@ -52,14 +52,14 @@ const NavBar = () => {
       <div
         className={
           responsiveNav
-            ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/60 "
-            : ""
+            ? "md:hidden z-[100] fixed left-0 top-0 w-full h-screen bg-black/60 "
+            : "z-[100]"
         }
       >
         <div
           className={
             responsiveNav
-              ? "fixed left-0 top-0 w-[75%] h-full overflow-auto sm:w-[60%] md:w-[45%] bg-[#f5f3f4] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] h-full overflow-auto sm:w-[60%] md:w-[45%] bg-[#f5f3f4] p-10 ease-in duration-500 z-50"
               : "fixed left-[-200%] top-0 p-10"
           }
         >

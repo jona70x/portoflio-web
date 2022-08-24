@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Intro from "../components/Intro";
+import AboutMe from "../components/AboutMe";
 
 // Importing other components
 
@@ -13,8 +14,8 @@ const Home: NextPage = () => {
           <title>Jonathan Carpio Portfolio</title>
         </Head>
       </div>
-
       <Intro />
+      <AboutMe />
     </>
   );
 };
