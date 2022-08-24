@@ -5,18 +5,18 @@ import profilePicture from "../public/assets/profile.jpeg";
 
 const AboutMe = () => {
   return (
-    <section className="p-4 flex items-center md:h-screen py-16 w-full bg-[#0077b6]">
-      <div className="max-w-[1440px] md:grid m-auto grid-cols-3 gap-2">
+    <div className="p-4 flex items-center md:h-screen py-16 w-full bg-[#0077b6]">
+      <div className="max-w-[1240px] md:grid m-auto grid-cols-3 gap-2">
         <div className="col-span-2 text-white p-2">
-          <h1 className="uppercase mb-10">Who am i?</h1>
+          <h1 className="uppercase mb-20">Who am i?</h1>
 
           <h2 className="py-2">Jonathan Carpio</h2>
           <p className="py-2"></p>
           <p className="py-2">
-            I graduated in 2017 and earned an Associate&apos;s Degreein Foreing
+            I graduated in 2017 and earned an Associate&apos;s Degree in Foreign
             trade. After my graduation, I worked as a Sales Executive for a
             international insurance company, where I sharpened my negotation
-            skills, and had the oportunity to work in various countries in
+            skills, and had the oportunity to work in various countries of
             LATAM.
           </p>
           <p className="py-2">
@@ -49,7 +49,7 @@ const AboutMe = () => {
           <Image src={profilePicture} alt="Profile picture"></Image>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

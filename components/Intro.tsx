@@ -8,10 +8,10 @@ const Intro = () => {
     <div className="w-full h-screen text-center">
       <div className="'max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="my-4">
+          <h1 className="my-8">
             Hello, I am {<span className="text-[#0077b6]">Jonathan</span>}
           </h1>
-          <h2 className="my-4">A Junior Full Stack Web Developer</h2>
+          <h2 className="my-8">A Junior Full Stack Web Developer</h2>
           <p className="m-auto w-[80%] md:w-[70%] lg:w-[50%] p-3 ">
             I am a self-taught Full Stack Web Developer who loves to create
             functional and stunning digital experiences. I am focused on getting

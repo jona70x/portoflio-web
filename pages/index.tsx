@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
 import Intro from "../components/Intro";
 import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
 
 // Importing other components
 
@@ -16,6 +16,7 @@ const Home: NextPage = () => {
       </div>
       <Intro />
       <AboutMe />
+      <Skills />
     </>
   );
 };
