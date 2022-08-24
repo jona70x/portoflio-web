@@ -5,7 +5,10 @@ import profilePicture from "../public/assets/profile.jpeg";
 
 const AboutMe = () => {
   return (
-    <div className="p-4 flex items-center md:h-screen py-16 w-full bg-[#0077b6]">
+    <div
+      id="about"
+      className="p-4 flex items-center md:h-screen py-16 w-full bg-[#0077b6] scroll-smooth"
+    >
       <div className="max-w-[1240px] md:grid m-auto grid-cols-3 gap-2">
         <div className="col-span-2 text-white p-2">
           <h1 className="uppercase mb-20">Who am i?</h1>

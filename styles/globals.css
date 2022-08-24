@@ -6,7 +6,9 @@
   body {
     @apply bg-[#f5f3f4] text-[#5E5A59] tracking-wide font-sans;
   }
-
+  html {
+    @apply scroll-smooth;
+  }
   h1,
   h2,
   h3,
