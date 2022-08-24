@@ -5,6 +5,8 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
+import NavLogo from "../public/assets/css.png";
+
 const NavBar = () => {
   // Setting nav bar responsive state
   const [responsiveNav, setResponsiveNav] = useState<boolean>(false);
@@ -17,12 +19,7 @@ const NavBar = () => {
   return (
     <div className="w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="../public/assets/skills/css.png"
-          alt="/"
-          width="50"
-          height="50"
-        />
+        <Image src={NavLogo} alt="nav logo" width="50" height="50" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -69,12 +66,7 @@ const NavBar = () => {
           {/* Top section */}
           <div>
             <div className="flex items-center justify-between w-full">
-              <Image
-                src="../public/assets/skills/css.png"
-                alt="/"
-                width="50"
-                height="50"
-              />
+              <Image src={NavLogo} alt="nav logo" width="50" height="50" />
               <div
                 onClick={handleNavBar}
                 className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer "
