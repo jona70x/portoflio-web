@@ -15,8 +15,8 @@ function ProjectsOverview() {
   const reactGalleryApp: string =
     "React App - React, React Router, Async/Await";
 
-  const randomUserGenerator: string =
-    "JavaScript App - HTML, CSS, Async/Await, APIs";
+  // const randomUserGenerator: string =
+  //   "JavaScript App - HTML, CSS, Async/Await, APIs";
 
   return (
     <div id="projects" className="w-full py-16 bg-[#0077b6]">
