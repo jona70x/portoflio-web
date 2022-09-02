@@ -6,7 +6,7 @@ import forkifyImg from "../public/assets/project_images/forkify_0.png";
 // Component fo and indiviual project
 const Project = () => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#00b4d8]">
+    <div className="relative flex items-center justify-center h-auto  shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={forkifyImg}

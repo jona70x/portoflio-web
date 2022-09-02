@@ -18,7 +18,7 @@ import redux from "../public/assets/skills/redux.png";
 const Skills = () => {
   return (
     <div id="skills" className="w-full py-16 ">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1240px] mx-auto w-[90%] flex flex-col justify-center h-full">
         <h1 className="py-16 text-[#0077b6]">Skills</h1>
         <h2 className="py-2 mb-10">Main Technologies</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 text-sm lg:gap-8 lg:text-xl">

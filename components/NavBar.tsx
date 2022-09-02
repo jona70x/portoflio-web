@@ -136,9 +136,15 @@ const NavBar = () => {
                 social media links
               </p>
               <div className="flex items-center justify-between my-8 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                  <FaLinkedinIn size={20} />
-                </div>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/jonathancarpioarellano/"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaLinkedinIn size={20} />{" "}
+                  </div>
+                </a>
                 <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
                   <FaGithub size={20} />
                 </div>
