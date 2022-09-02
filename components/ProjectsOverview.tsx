@@ -21,7 +21,10 @@ function ProjectsOverview() {
   return (
     <div id="projects" className="w-full py-16 bg-[#0077b6]">
       <div className="max-w-[1240px] mx-auto  w-[90%] flex flex-col justify-center h-full">
-        <h1 className="py-16 mb-10 text-white">Projects</h1>
+        <h1 className="py-16 text-white">Projects</h1>
+        <h2 className="py-16 text-white">
+          Hover over the projects to check the details
+        </h2>
 
         <div className="grid gap-8 md:grid-cols-2">
           {/* {Individual project box} */}
@@ -39,7 +42,14 @@ function ProjectsOverview() {
             projectLink="https://react-fullstack-courses-app.herokuapp.com/"
             projectImage={reactGalleryImg}
           />
+
           {/*Employee Directory*/}
+          <Project
+            projectDescription={reactGalleryApp}
+            projectName="Employee Directory"
+            projectLink="https://random-user-generator1.netlify.app/"
+            projectImage={randomUserImg}
+          />
         </div>
       </div>
     </div>

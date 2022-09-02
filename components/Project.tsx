@@ -17,9 +17,10 @@ const Project = ({
   projectDescription,
 }: Props) => {
   return (
-    <div className="relative flex items-center justify-center h-auto  shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
+    <div className="relative flex h-[380px] w-[100%] items-center justify-center shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
       <Image
         className="rounded-xl group-hover:opacity-10"
+        layout="fill"
         src={projectImage}
         alt="/"
       />
