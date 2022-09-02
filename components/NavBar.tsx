@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import Image from "next/image";
+
 import Link from "next/link";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
-
-import NavLogo from "../public/assets/css.png";
 
 const NavBar = () => {
   // Setting nav bar responsive state
@@ -24,8 +22,8 @@ const NavBar = () => {
   return (
     <div className="sticky top-0 w-full h-20 shadow-xl bg-[#f5f3f4] z-10">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
-        <Image src={NavLogo} alt="nav logo" width="50" height="50" />
-        <div>
+        <h2 className="mx-3">JC</h2>
+        <div className="mx-3">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">home</li>
@@ -41,11 +39,11 @@ const NavBar = () => {
                 projects
               </li>
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 contact
               </li>
-            </Link>
+            </Link> */}
           </ul>
           <div className="md:hidden" onClick={handleNavBar}>
             <AiOutlineMenu size={25} />
@@ -71,7 +69,7 @@ const NavBar = () => {
           {/* Top section */}
           <div>
             <div className="flex items-center justify-between w-full">
-              <Image src={NavLogo} alt="nav logo" width="50" height="50" />
+              <h2>JC</h2>
               <div
                 onClick={handleNavBar}
                 className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer "
@@ -112,7 +110,7 @@ const NavBar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li
                   className="py-4 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
@@ -120,14 +118,14 @@ const NavBar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <li
                   className="py-4 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
                 >
                   Contact
                 </li>
-              </Link>
+              </Link> */}
             </ul>
 
             {/* Social Media Links */}
@@ -145,12 +143,24 @@ const NavBar = () => {
                     <FaLinkedinIn size={20} />{" "}
                   </div>
                 </a>
-                <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                  <FaGithub size={20} />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                  <FaTwitter size={20} />
-                </div>
+                <a
+                  href="https://github.com/jona70x"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaGithub size={20} />
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/jona70xc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaTwitter size={20} />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

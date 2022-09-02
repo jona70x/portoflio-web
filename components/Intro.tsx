@@ -23,15 +23,33 @@ const Intro = () => {
               Get in contact with me:
             </p>
             <div className="flex items-center justify-center">
-              <div className=" mx-6 rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                <FaLinkedinIn size={20} />
-              </div>
-              <div className="mx-6 rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                <FaGithub size={20} />
-              </div>
-              <div className="mx-6 rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                <FaTwitter size={20} />
-              </div>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/jonathancarpioarellano/"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-500 mx-4 p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                  <FaLinkedinIn size={20} />{" "}
+                </div>
+              </a>
+              <a
+                href="https://github.com/jona70x"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-500 mx-4  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                  <FaGithub size={20} />
+                </div>
+              </a>
+              <a
+                href="https://twitter.com/jona70xc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-500 mx-4  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                  <FaTwitter size={20} />
+                </div>
+              </a>
             </div>
           </div>
         </div>
