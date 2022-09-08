@@ -8,6 +8,8 @@ import fullStackImg from "../public/assets/project_images/fullstack_0.png";
 import reactGalleryImg from "../public/assets/project_images/react_gallery0.png";
 import randomUserImg from "../public/assets/project_images/users_0.png";
 import forkifyImg from "../public/assets/project_images/forkify_0.png";
+import trullyImg from "../public/assets/project_images/trully_skin0.png";
+import phraseHunterImg from "../public/assets/project_images/phrase_hunter0.png";
 
 function ProjectsOverview() {
   const fullStackDescription: string =
@@ -20,6 +22,11 @@ function ProjectsOverview() {
     "JavaScript App - HTML, CSS, Async/Await, APIs";
 
   const forkifyApp: string = "JavaScript App - MVC, Async/Await, APIs";
+
+  const trullyStore: string = "🛠Soon to be a NextJs App - HTML, CSS Mockup";
+
+  const phraseHunter: string =
+    "JavaScript App - Object-Oriented Programming, HTML, CSS ";
 
   return (
     <div id="projects" className="w-full py-16 bg-[#0077b6]">
@@ -59,6 +66,20 @@ function ProjectsOverview() {
             projectName="Forkify Recipe App"
             projectLink="https://forkify-jonathancarpio.netlify.app/"
             projectImage={forkifyImg}
+          />
+          {/* Trully Skincare */}
+          <Project
+            projectDescription={trullyStore}
+            projectName="Trully store"
+            projectLink="https://trully-skincare.netlify.app/"
+            projectImage={trullyImg}
+          />
+          {/* Phrase Game */}
+          <Project
+            projectDescription={phraseHunter}
+            projectName="Phrase Hunter"
+            projectLink="https://phrasehunter-project.netlify.app/"
+            projectImage={phraseHunterImg}
           />
         </div>
       </div>
