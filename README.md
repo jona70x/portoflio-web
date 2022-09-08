@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to my web portfolio
+
+I have decided to create this project utilizing TypeScript, Tailwind CSS, and Next.js.
+
+You can find it live here: https://jonathan-carpio-portoflio-web.vercel.app/
 
 ## Getting Started
 
