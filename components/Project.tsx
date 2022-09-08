@@ -17,7 +17,7 @@ const Project = ({
   projectDescription,
 }: Props) => {
   return (
-    <div className="relative flex h-[380px] w-[100%] items-center justify-center shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
+    <div className="relative flex lg:h-[380px] md:h-[320px] sm:h-[360px] h-[280px] w-[100%] items-center justify-center shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
       <Image
         className="rounded-xl group-hover:opacity-10"
         layout="fill"
@@ -25,8 +25,10 @@ const Project = ({
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] text-center">
-        <h2 className="text-white pb-4 ">{projectName}</h2>
-        <p className="text-white pb-10 bold text-xl">{projectDescription}</p>
+        <h2 className="text-white pb-4 md:text-2xl">{projectName}</h2>
+        <p className="text-white pb-6 bold md:text-xl text-base">
+          {projectDescription}
+        </p>
 
         <button>
           <a
