@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  .clip-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
   body {
     @apply bg-[#f5f3f4] text-[#5E5A59] tracking-wide font-sans;
   }
   html {
     @apply scroll-smooth;
+    @apply text-[62.5%];
   }
   h1,
   h2,
@@ -19,7 +24,7 @@
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl;
+    @apply text-[4rem] md:text-[5rem];
   }
 
   h2 {
@@ -27,10 +32,14 @@
   }
 
   li {
-    @apply cursor-pointer;
+    @apply cursor-pointer text-base;
   }
 
   button {
-    @apply shadow-lg rounded-xl border border-[#0077b6] text-[#0077b6] hover:border-transparent hover:text-white hover:bg-[#0077b6] hover:ease-in-out hover:duration-500 bg-transparent px-2 py-1;
+    @apply shadow-lg rounded-xl border text-base border-[#0077b6] text-[#0077b6] hover:border-transparent hover:text-white hover:bg-[#0077b6] hover:ease-in-out hover:duration-500 bg-transparent px-2 py-1;
+  }
+
+  p {
+    @apply text-[2rem];
   }
 }

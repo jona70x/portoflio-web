@@ -20,42 +20,46 @@ const NavBar = () => {
   };
 
   return (
-    <div className="sticky top-0 w-full h-20 shadow-xl bg-[#f5f3f4] z-10">
+    <div className="sticky top-0 w-full h-[8rem] shadow-xl bg-[#f5f3f4] z-10">
       <div className="flex justify-between items-center w-full h-full 2xl:px-16">
-        <h2 className="mx-3">JC</h2>
+        <h2 className="mx-6 bg-clip-text text-transparent bg-gradient-to-r from-[#00b4d8] to-[#03045e]">
+          Jonathan C
+        </h2>
         <div className="mx-3">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">home</li>
+              <li className="uppercase hover:border-b hover:border-[#0077b6] border-b border-transparent">
+                home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className=" ml-10 text-sm uppercase hover:border-b">about</li>
+              <li className="ml-10  uppercase hover:border-b hover:border-[#0077b6] border-b border-transparent">
+                about
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">skills</li>
+              <li className="ml-10  uppercase hover:border-b hover:border-[#0077b6] border-b border-transparent">
+                skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10  uppercase hover:border-b hover:border-[#0077b6] border-b border-transparent">
                 projects
               </li>
             </Link>
-            {/* <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                contact
-              </li>
-            </Link> */}
           </ul>
-          <div className="md:hidden" onClick={handleNavBar}>
-            <AiOutlineMenu size={25} />
+          <div className="md:hidden cursor-pointer" onClick={handleNavBar}>
+            <AiOutlineMenu size={30} />
           </div>
         </div>
       </div>
+
       {/* Responsive segment */}
 
       <div
         className={
           responsiveNav
-            ? "md:hidden z-[100] fixed left-0 top-0 w-full h-screen bg-black/60 "
+            ? "md:hidden z-[100] fixed left-0 top-0 w-full h-screen bg-black/60 transition-all ease-in 500"
             : "z-[100]"
         }
       >
@@ -69,12 +73,14 @@ const NavBar = () => {
           {/* Top section */}
           <div>
             <div className="flex items-center justify-between w-full">
-              <h2>JC</h2>
+              <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-[#00b4d8] to-[#03045e]">
+                Jonathan C
+              </h2>
               <div
                 onClick={handleNavBar}
-                className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer "
+                className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105"
               >
-                <AiOutlineClose size={15} />
+                <AiOutlineClose size={20} />
               </div>
             </div>
             <div className="border-b border-gray-300 my-8">
@@ -88,7 +94,7 @@ const NavBar = () => {
             <ul className="uppercase">
               <Link href="/">
                 <li
-                  className="py-4 text-md hover:text-[#00b4d8]"
+                  className="py-8 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
                 >
                   Home
@@ -96,7 +102,7 @@ const NavBar = () => {
               </Link>
               <Link href="/#about">
                 <li
-                  className="py-4 text-md hover:text-[#00b4d8]"
+                  className="py-8 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
                 >
                   About
@@ -104,7 +110,7 @@ const NavBar = () => {
               </Link>
               <Link href="/#skills">
                 <li
-                  className="py-4 text-md hover:text-[#00b4d8]"
+                  className="py-8 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
                 >
                   Skills
@@ -112,35 +118,27 @@ const NavBar = () => {
               </Link>
               <Link href="/#projects">
                 <li
-                  className="py-4 text-md hover:text-[#00b4d8]"
+                  className="py-8 text-md hover:text-[#00b4d8]"
                   onClick={closeHandler}
                 >
                   Projects
                 </li>
               </Link>
-              {/* <Link href="/">
-                <li
-                  className="py-4 text-md hover:text-[#00b4d8]"
-                  onClick={closeHandler}
-                >
-                  Contact
-                </li>
-              </Link> */}
             </ul>
 
             {/* Social Media Links */}
-            <div className="mt-4 pt-7">
-              <p className="uppercase tracking-widest text-[#00b4d8] border-b">
+            <div className="mt-8">
+              <p className="uppercase tracking-widest text-[#00b4d8] border-b mb-8">
                 social media links
               </p>
-              <div className="flex items-center justify-between my-8 w-full sm:w-[80%]">
+              <div className="flex items-center justify-between w-full m-auto py-4 sm:w-[80%]">
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/jonathancarpioarellano/"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                    <FaLinkedinIn size={20} />{" "}
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-5 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaLinkedinIn size={22} />{" "}
                   </div>
                 </a>
                 <a
@@ -148,8 +146,8 @@ const NavBar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                    <FaGithub size={20} />
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-5 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaGithub size={22} />
                   </div>
                 </a>
                 <a
@@ -157,8 +155,8 @@ const NavBar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-500  p-3 cursor-pointer hover:scale-105 ease-in-out duration-500">
-                    <FaTwitter size={20} />
+                  <div className="rounded-full shadow-lg shadow-gray-500  p-5 cursor-pointer hover:scale-105 ease-in-out duration-500">
+                    <FaTwitter size={22} />
                   </div>
                 </a>
               </div>

@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full py-16 ">
       <div className="max-w-[1240px] mx-auto w-[90%] flex flex-col justify-center h-full">
-        <h1 className="py-16 text-[#0077b6]">Skills</h1>
+        <h1 className="py-6 text-[#0077b6]">Skills</h1>
         <h2 className="py-2 mb-10">Main Technologies</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 text-sm lg:gap-8 lg:text-xl">
           {/* Individual skill box  1*/}
@@ -33,7 +33,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>HTML</div>
+              <p className="text-[1.5rem]">HTML</p>
             </div>
           </div>
           {/* {} */}
@@ -48,7 +48,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>CSS</div>
+              <p className="text-[1.5rem]"> CSS</p>
             </div>
           </div>
           {/* {} */}
@@ -63,7 +63,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>JavaScript</div>
+              <p className="text-[1.5rem]">JavaScript</p>
             </div>
           </div>
           {/* {} */}
@@ -78,7 +78,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>React</div>
+              <p className="text-[1.5rem]">React</p>
             </div>
           </div>
           {/* {} */}
@@ -93,7 +93,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>Node</div>
+              <p className="text-[1.5rem]">Node</p>
             </div>
           </div>
           {/* {} */}
@@ -108,7 +108,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>Tailwind</div>
+              <p className="text-[1.5rem]">Tailwind</p>
             </div>
           </div>
           {/* {} */}
@@ -123,7 +123,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>Sequelize</div>
+              <p className="text-[1.5rem]">Sequelize</p>
             </div>
           </div>
           {/* {} */}
@@ -138,7 +138,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>Github</div>
+              <p className="text-[1.5rem]">Github</p>
             </div>
           </div>
           {/* {} */}
@@ -153,7 +153,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>CSS</div>
+              <p className="text-[1.5rem]">CSS</p>
             </div>
           </div>
           {/* {} */}
@@ -170,7 +170,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>NextJS</div>
+              <p className="text-[1.5rem]">NextJS</p>
             </div>
           </div>
           <div className="p-4 rounded-xl shadow-sm shadow-[#03045e] hover:scale-105 ease-in-out duration-500">
@@ -183,7 +183,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>TypeScript</div>
+              <p className="text-[1.5rem]">TypeScript</p>
             </div>
           </div>
           <div className="p-4 rounded-xl shadow-sm shadow-[#03045e] hover:scale-105 ease-in-out duration-500">
@@ -196,7 +196,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>MongoDB</div>
+              <p className="text-[1.5rem]">MongoDB</p>
             </div>
           </div>
           <div className="p-4 rounded-xl shadow-sm shadow-[#03045e] hover:scale-105 ease-in-out duration-500">
@@ -209,7 +209,7 @@ const Skills = () => {
                   height="50px"
                 ></Image>
               </div>
-              <div>Redux</div>
+              <p className="text-[1.5rem]">Redux</p>
             </div>
           </div>
         </div>

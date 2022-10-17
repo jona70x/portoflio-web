@@ -7,13 +7,14 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="p-4 flex items-center h-full py-16 w-full bg-[#0077b6]"
+      className="p-10 flex items-center h-full py-16 w-full my-[-15vh] mb-10  bg-[#0077b6]"
     >
       <div className="max-w-[1240px] md:grid m-auto grid-cols-3 gap-2">
         <div className="col-span-2 text-white p-2">
-          <h1 className="uppercase mb-20">Who am i?</h1>
-
-          <h2 className="py-2">Jonathan Carpio</h2>
+          <h1 className="uppercase my-[8rem] bg-clip-text text-transparent bg-gradient-to-r from-[#eee] to-[#90e0ef]">
+            Who am i?
+          </h1>
+          <h2 className="mb-8 ">Jonathan Carpio</h2>
           <p className="py-2"></p>
           <p className="py-2">
             I graduated in 2017 and earned an Associate&apos;s Degree in Foreign

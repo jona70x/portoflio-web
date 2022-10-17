@@ -12,20 +12,18 @@ import trullyImg from "../public/assets/project_images/trully_skin0.png";
 import phraseHunterImg from "../public/assets/project_images/phrase_hunter0.png";
 
 function ProjectsOverview() {
-  const fullStackDescription: string =
+  const fullStackDescription =
     "Full Stack Reac App - REST API, React, SQL, CSS, Axios, React Router";
 
-  const reactGalleryApp: string =
-    "React App - React, React Router, Async/Await";
+  const reactGalleryApp = "React App - React, React Router, Async/Await";
 
-  const randomUserGenerator: string =
-    "JavaScript App - HTML, CSS, Async/Await, APIs";
+  const randomUserGenerator = "JavaScript App - HTML, CSS, Async/Await, APIs";
 
-  const forkifyApp: string = "JavaScript App - MVC, Async/Await, APIs";
+  const forkifyApp = "JavaScript App - MVC, Async/Await, APIs";
 
-  const trullyStore: string = "🛠Soon to be a NextJs App - HTML, CSS Mockup";
+  const trullyStore = "🛠Soon to be a NextJs App - HTML, CSS Mockup";
 
-  const phraseHunter: string =
+  const phraseHunter =
     "JavaScript App - Object-Oriented Programming, HTML, CSS ";
 
   return (
