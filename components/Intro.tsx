@@ -5,8 +5,8 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <div className="w-full h-[100vh] text-center clip-polygon bg-[#eee] z-10">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-4 flex justify-center items-center">
+    <div className="w-full h-[72rem] text-center clip-polygon bg-[#eee] z-50">
+      <div className="max-w-[1240px] w-full h-[100vh] mx-auto p-4 flex justify-center items-center">
         <div>
           <h1 className="mb-20">
             Hello, I am{" "}
@@ -21,13 +21,13 @@ const Intro = () => {
             I am a self-taught Full Stack Web Developer who loves to create
             functional and stunning digital experiences. I am focused on getting
             my first job as a Web Developer to be able to showcase my current
-            abilities and grow as a team member of your company.{" "}
+            abilities and grow as a team member of your organization.{" "}
           </p>
           <div className="mt-4 pt-7">
             <p className="uppercase tracking-widest text-[#00b4d8] mb-4">
               Get in contact with me:
             </p>
-            <div className="flex items-center my-10 justify-center">
+            <div className="flex items-center my-16 justify-center">
               <a
                 target="_blank"
                 rel="noreferrer"

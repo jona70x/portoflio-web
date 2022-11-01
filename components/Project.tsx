@@ -19,7 +19,7 @@ const Project = ({
   return (
     <div className="relative flex lg:h-[380px] md:h-[320px] sm:h-[360px] h-[280px] w-[100%] items-center justify-center shadow-xl rounded-xl group hover:bg-gradient-to-r from-[#caf0f8] to-[#0077b6]">
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-10 ransition-all duration-500 ease-out"
         layout="fill"
         src={projectImage}
         alt="/"

@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="p-10 flex items-center h-full py-16 w-full my-[-15vh] mb-10  bg-[#0077b6]"
+      className="p-10 flex items-center h-full py-16 w-full my-[-15vh] -z-10 mb-10 bg-gradient-to-r from-[#00b4d8] to-[#03045e]"
     >
       <div className="max-w-[1240px] md:grid m-auto grid-cols-3 gap-2">
         <div className="col-span-2 text-white p-2">
