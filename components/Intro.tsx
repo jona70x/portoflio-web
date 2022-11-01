@@ -5,8 +5,8 @@ import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <div className="w-full h-[76rem] py-16 text-center clip-polygon bg-[#eee] z-50">
-      <div className="max-w-[1240px] w-full h-[100vh] mx-auto p-4 flex justify-center items-center">
+    <div className="w-full h-[76rem] text-center clip-polygon bg-[#eee]">
+      <div className="max-w-[1240px] w-full h-[100vh] mx-auto md:my-[-6rem] p-4 flex justify-center items-center">
         <div>
           <h1 className="mb-20">
             Hello, I am{" "}
