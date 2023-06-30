@@ -19,6 +19,7 @@ import mongo from "../public/assets/skills/mongo.png";
 import redux from "../public/assets/skills/redux.png";
 import sass from "../public/assets/skills/sass.png";
 import sanity from "../public/assets/skills/sanity.png";
+import bootstrap from "../public/assets/skills/bootstrap.svg";
 
 const Skills = () => {
   return (
@@ -50,6 +51,7 @@ const Skills = () => {
           <Skill src={sass} description="Sass" />
 
           <Skill src={sanity} description="Sanity" />
+          <Skill src={bootstrap} description="Bootstrap" />
         </div>
         <h2 className="my-10">Interested in</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 text-sm lg:gap-8 lg:text-xl mb-10">
